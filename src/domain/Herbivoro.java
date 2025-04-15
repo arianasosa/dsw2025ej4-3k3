@@ -25,7 +25,7 @@ public class Herbivoro extends Mamifero{
 
     @Override
     public double calcularCantidadDeComida() {
-        double comida = peso * porcentajePeso + valorFijo;
+        double comida = peso * 2 + valorFijo;
         return comida;
     }
 }
